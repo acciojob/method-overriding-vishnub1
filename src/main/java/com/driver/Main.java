@@ -12,8 +12,7 @@ Task 5: call this overridden method from obj of class B
 */
 
 public class Main {
-    public Main() {
-    }
+    public Main() {    }
     public static void main(String[] args) {
         B objB = new B();
         System.out.println(objB.meth());
