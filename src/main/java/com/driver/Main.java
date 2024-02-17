@@ -14,12 +14,22 @@ Task 4: Now override methode meth of class A in class B, which returns the follo
 
 Task 5: call this overridden method from obj of class B
 */
+class A {
+    public String meth() {
+        return "Invoking method from class A";
+    }
+}
+
+class B extends A {
+    @Override
+    public String meth() {
+        return "Method is overridden in Extended class B";
+    }
+}
 
 public class Main {
     public static void main(String[] args) {
-        B bClass = new B();
-//        bClass.meth();
-        System.out.println(bClass.meth());
-
+        B bobj = new B();
+        System.out.println(bobj.meth());
     }
 }
