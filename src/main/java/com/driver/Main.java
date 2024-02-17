@@ -18,8 +18,8 @@ Task 5: call this overridden method from obj of class B
 public class Main {
     public static void main(String[] args) {
         B bClass = new B();
-        bClass.meth();
-//        System.out.println(bClass.meth());
+//        bClass.meth();
+        System.out.println(bClass.meth());
 
     }
 }
