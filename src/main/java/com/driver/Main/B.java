@@ -3,7 +3,7 @@
 // (powered by FernFlower decompiler)
 //
 
-package com.driver;
+package com.driver.Main;
 
 class B extends A {
     // Task 4: Override method meth of class A in class B

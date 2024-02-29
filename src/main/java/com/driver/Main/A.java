@@ -3,7 +3,7 @@
 // (powered by FernFlower decompiler)
 //
 
-package com.driver;
+package com.driver.Main;
 
 class A {
     public String meth() {
