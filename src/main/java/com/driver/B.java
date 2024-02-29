@@ -3,10 +3,11 @@
 // (powered by FernFlower decompiler)
 //
 
-package com.driver.Main;
+package com.driver;
 
-class A {
+class B extends A {
+    @Override
     public String meth() {
-        return "Invoking method from class A";
+        return "Method is overridden in Extended class B";
     }
 }

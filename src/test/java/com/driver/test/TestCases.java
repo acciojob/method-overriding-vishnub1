@@ -1,4 +1,4 @@
-package com.driver.Main.test;
+package com.driver.test;
 
 import static org.junit.Assert.*;
 import org.junit.jupiter.api.Test;
